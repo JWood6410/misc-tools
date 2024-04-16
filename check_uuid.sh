@@ -10,4 +10,4 @@ while IFS= read -r line; do
   else
     echo "Pass: $line starts with UUID"
   fi
-done < /etc/fstabgit push origin
+done < /etc/fstab
